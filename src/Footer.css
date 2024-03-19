@@ -1,0 +1,88 @@
+/* Reset styles */
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 50%;
+}
+
+body {
+    background: #151111;
+}
+
+.footer {
+    bottom:0;
+    left: 0;
+    right: 0;
+    background: #080707;
+    height: auto; /* Adjust this value to increase the overall height */
+    width: 100vw;
+    padding-top: -80px;
+    padding-bottom: 5px;
+    /* margin-top: -80px; */
+    margin-bottom: -60%;
+    color: #fff;
+    overflow: hidden; /* Add this line to hide overflow */
+    box-sizing: border-box; /* Ensure padding and border are included in the height */
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.5; /* Adjust line-height to control spacing between lines */
+    font-size: 14px;
+    color: #f0f1f4;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+/* Yet to be made responsive */
+@media (max-width: 500px) {
+    /* Adjust styles for smaller screens */
+}
